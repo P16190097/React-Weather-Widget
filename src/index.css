@@ -1,0 +1,98 @@
+.weather-app {
+    align-items: center;
+    min-width: 100px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.card {
+    float: left;
+    width: 115px;
+    border: 1px orange;
+    background: grey;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+.active {
+    background: linear-gradient(darkorange, grey);
+    width: 115px;
+    float: left;
+    /* border: 1px solid grey; */
+}
+
+.card img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.card.temps {
+    padding-bottom: 10px;
+}
+
+.imgcontainer {
+    min-height: 60%;
+}
+
+.timecontainer {
+    /* width: 714px; */
+    bottom: 10px;
+    height: 210px;
+    clear: both;
+    z-index: 10;
+    position: relative;
+    opacity: 1.0;
+}
+
+.hourcontainer {
+    background-color: grey;
+    float: left;
+    text-align: center;
+    width: 70px;
+    height: 150px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+.hourcontainer.temps {
+    font-size: 8;
+    padding-bottom: 10px;
+}
+
+.barcontainer {
+    height: 800px;
+}
+
+.transHours-enter {
+    opacity: 0.01;
+}
+
+.transHours-enter.transHours-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.transHours-leave {
+    opacity: 1;
+}
+
+.transHours-leave.transHours-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+
+hr {
+    border: none;
+    border-left: 1px solid hsla(200, 10%, 50%, 100);
+    height: 100vh;
+    width: 1px;
+}
+
+hr:last-of-type {
+    display: none;
+}
