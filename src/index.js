@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+//import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import * as httprequest from './Components/httprequest';
 import Weatherbar from'./Components/weatherbar';
 
