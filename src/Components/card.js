@@ -1,7 +1,4 @@
 import React from 'react';
-import * as httprequest from './httprequest';
-import Timebar from './timebar';
-import * as image from './imgArray';
 
 export default class Card extends React.Component {
     constructor() {

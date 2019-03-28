@@ -49,7 +49,7 @@ export default class Weatherbar extends React.Component {
     clickedOnCard = (id) => {
         console.log(id);
         //this.state.showTimeBar ? true : false;
-        let newActiveCardId = id == this.state.activeCardId ? null : id;
+        let newActiveCardId = id === this.state.activeCardId ? null : id;
         console.log(newActiveCardId);
         this.setState({
             showTimeBar: newActiveCardId != null,
@@ -80,7 +80,7 @@ export default class Weatherbar extends React.Component {
                     weekday={item.weekday}
                     img={image.getImg(item.img)}
                     id={item.id}
-                    active={this.state.activeCardId == item.id}
+                    active={this.state.activeCardId === item.id}
                     clickedOnFunc={(id) => this.clickedOnCard(id)}
                 />
             });

@@ -1,6 +1,4 @@
 import React from 'react';
-import * as httprequest from './httprequest';
-import * as image from './imgArray';
 
 export default class Hour extends React.Component {
     render(props) {
