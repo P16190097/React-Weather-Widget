@@ -3,7 +3,7 @@ import * as httprequest from './httprequest';
 import Timebar from './timebar';
 import * as image from './imgArray';
 import Card from './card';
-import { CSSTransitionGroup } from 'react-transition-group'; //ES6
+//import { CSSTransitionGroup } from 'react-transition-group'; //ES6
 
 // https://medium.com/@joethedave/achieving-ui-animations-with-react-the-right-way-562fa8a91935 for React transition effects
 
